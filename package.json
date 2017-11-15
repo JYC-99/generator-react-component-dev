@@ -1,6 +1,6 @@
 {
   "name": "generator-react-component-dev-kit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A scaffolding tool allowing developers create react component with demo page, dev page with hot reloading, testing with coverage check.",
   "main": "index",
   "repository": "git@github.com:BigYu/generator-react-component-dev.git",
