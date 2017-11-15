@@ -13,5 +13,6 @@
     "glob": "^7.1.2",
     "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
-  }
+  },
+  "keyword": ["yeoman-generator", "react", "component"]
 }

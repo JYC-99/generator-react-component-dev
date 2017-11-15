@@ -1,5 +1,5 @@
 var config = require('./webpack.config.js');
 
-config.resolve.alias.<%= exportName %> = '../../src/index';
+config.resolve.alias['<%= packageName %>'] = '../../src/index';
 
 module.exports = config;

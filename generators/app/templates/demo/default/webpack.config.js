@@ -25,7 +25,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      <%= exportName %>: '../../dist/index',
+      '<%= packageName %>': '../../dist/index',
     },
   },
 };
