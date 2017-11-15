@@ -6,7 +6,7 @@ const glob = require('glob');
 
 module.exports = class extends Generator{
   prompting() {
-    const greetingMessage = `Welcome to ${chalk.black.bold.bgWhite('generator-react-component-dev')} generator!`;
+    const greetingMessage = `Welcome to ${chalk.black.bold.bgWhite('generator-react-component-dev-kit')} generator!`;
 
     this.log(yosay(greetingMessage));
 
