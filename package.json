@@ -1,6 +1,6 @@
 {
   "name": "generator-react-component-dev-kit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A scaffolding tool allowing developers create react component with demo page, dev page with hot reloading, testing with coverage check.",
   "main": "index",
   "repository": "git@github.com:BigYu/generator-react-component-dev.git",
@@ -14,7 +14,7 @@
     "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
-  "keyword": [
+  "keywords": [
     "yeoman-generator",
     "react",
     "component"
