@@ -1,5 +1,5 @@
 {
-  "name": "generator-react-component-dev",
+  "name": "generator-react-component-dev-kit",
   "version": "0.0.1",
   "description": "A scaffolding tool allowing developers create react component with demo page, dev page with hot reloading, testing with coverage check.",
   "main": "index",
@@ -14,5 +14,9 @@
     "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
-  "keyword": ["yeoman-generator", "react", "component"]
+  "keyword": [
+    "yeoman-generator",
+    "react",
+    "component"
+  ]
 }

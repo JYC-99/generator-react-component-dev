@@ -8,12 +8,12 @@ A scaffolding tool allowing developers create react component with demo page, de
 - install the generator:
 
 ```bash
-npm install -g generator-react-component-dev
+npm install -g generator-react-component-dev-kit
 ```
 
 - Change working directory to your project code base.
 
-- `yo react-component-dev`
+- `yo react-component-dev-kit`
   - You need to type in your component name in the prompting dialog.
   - The generator will transform it to PascalCase as component export name, and param-case as package name.
 
