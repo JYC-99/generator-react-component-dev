@@ -9,6 +9,8 @@
   "private": false,
   "dependencies": {
     "chalk": "^2.3.0",
+    "change-case": "^3.0.1",
+    "glob": "^7.1.2",
     "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   }
