@@ -1,4 +1,4 @@
-# generator-react-component-dev
+# generator-react-component-dev-kit
 A scaffolding tool allowing developers create react component with demo page, dev page with hot reloading, testing with coverage check.
 
 ## Usage
@@ -8,7 +8,7 @@ A scaffolding tool allowing developers create react component with demo page, de
 - install the generator:
 
 ```bash
-npm install -g generator-react-component-dev-kit
+npm install -g generator-react-component-dev-kitnpm
 ```
 
 - Change working directory to your project code base.
