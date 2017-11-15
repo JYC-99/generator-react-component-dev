@@ -27,7 +27,7 @@ module.exports = class extends Generator{
     const packageName = changeCase.paramCase(this.props.name);
 
     this.fs.copyTpl(
-      glob.sync(this.templatePath('**')),
+      glob.sync(this.templatePath('**'), { dot: true }),
       this.destinationPath(packageName),
       {
         packageName,
