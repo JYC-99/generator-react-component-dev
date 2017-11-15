@@ -1,11 +1,8 @@
 {
-  "name": "react-projection-grid",
+  "name": "<%= packageName %>",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index",
-  "directories": {
-    "example": "examples"
-  },
   "scripts": {
     "demo": "webpack && cd demo/default && webpack",
     "build": "webpack",
@@ -15,23 +12,6 @@
     "jsdoc": "jsdoc -c ./jsdoc.config.json -d ./jsdoc",
     "dev": "cd demo/default && webpack-dev-server --hot --inline --colors --config ./webpack.dev.config.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/projection-grid/react-projection-grid.git"
-  },
-  "keywords": [
-    "react",
-    "projection",
-    "grid",
-    "table",
-    "component"
-  ],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/projection-grid/react-projection-grid/issues"
-  },
-  "homepage": "https://github.com/projection-grid/react-projection-grid#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-jest": "^21.2.0",
@@ -74,6 +54,14 @@
   },
   "jest": {
     "collectCoverage": true,
-    "coverageDirectory": "./coverage-report"
+    "coverageDirectory": "./coverage-report",
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
   }
 }

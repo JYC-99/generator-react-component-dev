@@ -25,7 +25,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      ReactProjectionGrid: '../../dist/index',
+      <%= exportName %>: '../../dist/index',
     },
   },
 };
